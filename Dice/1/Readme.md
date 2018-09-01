@@ -9,6 +9,6 @@ We characterize a die as follows:
 i.e., we characterize a die purely in terms of the operation that we can
 perform on it ("Roll").
 
-We implement the solution as in [app.java](https://github.com/pvlakshm/DesignConcepts/blob/FB1/Dice/1/src/main/java/App.java).
+We implement the solution as in [App.java](https://github.com/pvlakshm/DesignConcepts/blob/FB1/Dice/1/src/main/java/App.java).
 
 [Classes as Types]()
