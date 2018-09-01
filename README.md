@@ -28,4 +28,4 @@ The tutorial is implemented in Java.
 ### Problem Statement:
 Build a six-sided die that a player might use to play a game.
 
-[A Simple Solution](https://github.com/pvlakshm/DesignConcepts/blob/FB1/Dice/1/Readme.md)
+[A Simple Solution](Dice/1/Readme.md)
