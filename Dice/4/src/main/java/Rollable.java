@@ -1,5 +1,5 @@
 // the interface representing a die
 interface Rollable
 {
-  public int sides();
+    public int sides();
 }
