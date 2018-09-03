@@ -21,4 +21,4 @@ The client, [App.java](src/main/java/App.java) works only in terms of this inter
 
 Do you see any more areas where we can improve?
 
-[The Factory](../4/Readme.md)
+[Next: The Factory](../4/Readme.md)

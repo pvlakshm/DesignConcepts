@@ -1,6 +1,9 @@
 ## Design Concepts - An Introduction with Java 
 
-_There is no silver bullet. - F. Brooks_
+<pre>
+There is no silver bullet.
+- F. Brooks
+</pre>
 
 "Design" is context-driven. For a product, this context would be its purpose, its lifetime, the materials used, the usage pattern, the scale, to name but a few. 
 
@@ -31,4 +34,4 @@ The tutorial is implemented in Java.
 ### Problem Statement: 
 Build a six-sided die that a player might use to play a game. 
 
-[A Simple Solution](Dice/1/Readme.md)
+[Next: A Simple Solution](Dice/1/Readme.md)
