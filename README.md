@@ -1,31 +1,23 @@
-## Design Concepts - An Introduction with Java
-"Design" is context-driven. For a product, this context would be its purpose, its lifetime, the materials used, the usage pattern, the scale, to name but a few.
+## Dice as Classes
+Our previous solution left some issues open:
+- We do not get the impression of using a die.
+- What if we need a ten-sided die? What do we need to modify?
+- What if we need more than one die? What do we need to modify?
+- The code has the "magic" numbers 1 and 6.
+- What is the relation between the operation Roll() and the die? Is it captured in our program? Or is it only in the mind of the programmer?
+- What is the relation between Roll() and the number of sides on the die?
 
-The design of a single-seater aircraft would be inappropriate for the space shuttle. The design of a steamer would be inappropriate for an aircraft carrier.
+We need a better representation of a die.
 
-Software system design is no different. We must consider various issues
-such as:
-- performance
-- portability
-- which alogrithms and data structures to use
-- controlling interaction between the various pieces
+We characterize a die as follows:
+- A die is a thing.
+- A die is something that a player can "Roll".
+- The "Roll" operation will roll a die.
+- The value (on the top face) of the die is a result of this "Roll" operation.
 
-Having said that, good design typically has the following characteristics:
-- shows appropriate decomposition
-- is modular
-- has low coupling
-- is flexible
-- can be tested
+Let us also remove the restriction on the number of sides that the die can have. We will make it a parameter.
 
-We must design with an eye on implementation.
- 
-We will take a sample problem and try to illustrate these issues.
- 
-This tutorial builds up a sample over several steps, refining it at each step by applying a simple pattern; the patterns 'interface as type', 'factory' and 'strategy' are illustrated as we go along.
- 
-The tutorial is implemented in Java.
+Now, the new die is implemented in [Dice.java](src/main/java/Dice.java)
+The die is used from the application [App.java](src/main/java/App.java)
 
-### Problem Statement:
-Build a six-sided die that a player might use to play a game.
-
-[A Simple Solution](Dice/1/Readme.md)
+[Interfaces as Types]()

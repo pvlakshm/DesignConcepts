@@ -11,4 +11,4 @@ perform on it ("Roll").
 
 We implement the solution as in [App.java](src/main/java/App.java).
 
-[Dices as Classes](../2/Readme.md)
+[Classes as Types]()
