@@ -14,23 +14,23 @@ How would the game developer test the game? It is difficult to write test cases 
 We must be able to vary the "loading" strategy without having to rebuild our die component (for which we may not even have the source code)! From both "flexibility" and "testing" perspectives, it is desirable to be able to vary the rolling strategy ("loading") of our die at run time.
 
 ### Solution
-We abstract the rolling as an interface in rollstrategy.jsl Every die refers to an instance of a RollStrategy object through this interface. We abstract the "loading" as a method on the dice interface that allows us to set the RollStrategy to be used by the die. This object represents the strategy to be used when the die is rolled.
+We abstract the rolling as an interface in [RollStrategy.java](src/main/java/RollStrategy.java) Every die refers to an instance of a RollStrategy object through this interface. We abstract the "loading" as a method on the dice interface that allows us to set the RollStrategy to be used by the die. This object represents the strategy to be used when the die is rolled.
 
-We make the addition to the die representaion in dice.jsl. We move the Roll method from app.jsl and create a RandomRoll class, randomroll.jsl, representing the random distribution strategy. This is the default strategy used by the die.
+We make the addition to the die representaion in [Dice.java](src/main/java/Dice.java). We move the Roll method from [App.java](src/main/java/App.java) and create a RandomRoll class, [RandomRoll.java)](src/main/java/RandomRoll.java), representing the random distribution strategy. This is the default strategy used by the die.
 
-We introduce a method to load the die in rollable.jsl and implement it on our die class, dice.jsl. The roll function now uses this "load" to perform the rolling operation. We update dicefactory.jsl to set the default load on the die upon creation of the die.
+We introduce a method to load the die in [Rollable.java](src/main/java/Rollable.java) and implement it on our die class, [Dice.java](src/main/java/Dice.java). The roll function now uses this "load" to perform the rolling operation. We update [DiceFactory.java](src/main/java/DiceFactory.java) to set the default load on the die upon creation of the die.
 
-We create a CyclicRoll strategy in a similar fashion in cyclicroll.jsl.
+We create a CyclicRoll strategy in a similar fashion in [CyclicRoll.java](src/main/java/CyclicRoll.java).
 
 Now the client can initialize the desired rolling strategy, set it on the die, and then roll it. Notice how we can vary it at run time.
 
 #### Server files:
-dice.jsl, randomroll.jsl, dicefactory.jsl, rollable.jsl, rollstrategy.jsl
+[Dice.java](src/main/java/Dice.java), [RandomRoll.java](src/main/java/RandomRoll.java), [DiceFactory.java](src/main/java/DiceFactory.java), [Rollable.java](src/main/java/Rollable.java), [RollStrategy.java](src/main/java/RollStrategy.java)
 
 #### Client
-app.jsl, cyclicroll.jsl
+[App.java](src/main/java/App.java), [CyclicRoll.java](src/main/java/CyclicRoll.java)
 
-Only dicefactory.jsl, rollable.jsl, rollstrategy.jsl are "visible" to the client.
+Only [DiceFactory.java](src/main/java/DiceFactory.java), [Rollable.java](src/main/java/Rollable.java), [RollStrategy.java](src/main/java/RollStrategy.java) are "visible" to the client.
 
 This implementation has the following characteristics:
 - clear separation of client and server
