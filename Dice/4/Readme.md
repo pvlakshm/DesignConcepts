@@ -20,4 +20,4 @@ The "real" representation of the die is no longer "visible" to the client. And i
 
 We have insulated the client from the server.
 
-[Strategy]()
+[Strategy](../5/Readme.md)
