@@ -1,4 +1,10 @@
 ## Dice as Classes
+
+<pre>
+Form must follow function.
+- Le Corbusier
+</pre>
+
 Our previous solution left some issues open:
 - We do not get the impression of using a die.
 - What if we need a ten-sided die? What do we need to modify?

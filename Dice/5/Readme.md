@@ -1,5 +1,12 @@
 ## Strategy
 
+<pre>
+he reason that data structures and algorithms
+can work together seamlessly is ... that they
+do not know anything about each other.
+- Alex Stepanov
+</pre>
+
 ### Flexibility
 Remember that we are using the die in a game scenario - say, man vs computer, or, like in a casino.
 

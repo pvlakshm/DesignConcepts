@@ -1,5 +1,10 @@
 ## Interfaces as Types
 
+<pre>
+Programming is understanding.
+- Kristen Nygaard
+</pre>
+
 ### Re-organizing the Modules
 Our previous solution allowed us to have more than one die.
 

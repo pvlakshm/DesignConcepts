@@ -1,4 +1,10 @@
 ## Design Exercises
+
+<pre>
+The harder I practice, the luckier I get.
+- Gary Player
+</pre>
+
 - Instead of having a single die support multiple loading strategies,
 we can have a hierarchy of dice, each supporting a different strategy;
 Discuss the merits of this with respect to our choice of implementation.

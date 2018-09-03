@@ -1,5 +1,10 @@
 ## A Simple Solution
 
+<pre>
+Everything should be made as simple as possible, but no simpler.
+- A. Einstein
+</pre>
+
 The intention is not to win any programming contest! All we need to do is build a simple six-sided die.
 
 We characterize a die as follows:

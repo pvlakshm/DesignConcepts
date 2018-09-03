@@ -1,4 +1,7 @@
 ## Design Concepts - An Introduction with Java 
+
+_There is no silver bullet. - F. Brooks_
+
 "Design" is context-driven. For a product, this context would be its purpose, its lifetime, the materials used, the usage pattern, the scale, to name but a few. 
 
 The design of a single-seater aircraft would be inappropriate for the space shuttle. The design of a steamer would be inappropriate for an aircraft carrier. 
