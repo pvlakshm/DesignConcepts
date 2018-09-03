@@ -42,4 +42,4 @@ This implementation has the following characteristics:
 
 This completes our "die design" project. Hope you learnt something along the way!
 
-[Design Excercises]()
+[Design Excercises](../Exercises/Readme.md)
