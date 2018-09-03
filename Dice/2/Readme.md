@@ -26,4 +26,4 @@ Let us also remove the restriction on the number of sides that the die can have.
 Now, the new die is implemented in [Dice.java](src/main/java/Dice.java)
 The die is used from the application [App.java](src/main/java/App.java)
 
-[Interfaces as Types](../3/Readme.md)
+[Next: Interfaces as Types](../3/Readme.md)
