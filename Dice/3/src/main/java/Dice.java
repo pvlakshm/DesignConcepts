@@ -1,5 +1,6 @@
-// this represents a die
-public class Dice
+// this represents the die; it now implements
+// the Dice interface
+public class Dice implements Rollable
 {
     public Dice(int i)
     {
