@@ -1,6 +1,9 @@
 ## Design Concepts - An Introduction with Java 
 
-_There is no silver bullet. - F. Brooks_
+<pre>
+There is no silver bullet.
+- F. Brooks
+</pre>
 
 "Design" is context-driven. For a product, this context would be its purpose, its lifetime, the materials used, the usage pattern, the scale, to name but a few. 
 
