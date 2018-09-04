@@ -1,7 +1,7 @@
 ## Strategy
 
 <pre>
-he reason that data structures and algorithms
+The reason that data structures and algorithms
 can work together seamlessly is ... that they
 do not know anything about each other.
 - Alex Stepanov
